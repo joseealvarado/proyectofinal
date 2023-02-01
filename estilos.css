@@ -1,0 +1,33 @@
+
+    
+body{
+     background: dodgerblue;
+     margin-right: 800px;
+     font-family: 'Dancing Script', cursive;
+    }
+ img{
+    width: 200px;
+    height: 200px;
+}
+h2,h3,H4,p{
+    text-align: center;
+}
+h1{
+    border: 10px solid black;
+    color: red;
+   }
+h2{
+ border: 10px solid black;
+ color: deeppink;
+ 
+}
+h3{
+    color: yellow;
+   }
+h4{
+    color: rgb(154, 236, 21);
+   }
+
+.container{
+    text-align: left;
+ }
