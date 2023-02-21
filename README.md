@@ -1,4 +1,4 @@
-# proyectofinal
+# proyecto final
 
 Este proyecto es un curriculum vitae
 
