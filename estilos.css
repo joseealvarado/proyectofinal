@@ -5,10 +5,21 @@ body{
      margin-right: 800px;
      font-family: 'Dancing Script', cursive;
     }
- img{
-    width: 200px;
-    height: 200px;
-}
+img{
+            width: 300px; height: 300px;
+            margin: auto;
+            display: block;
+          }
+
+          img:hover{
+            border-radius:50%;
+            -webkit-border-radius:50%;
+            box-shadow: 0px 0px 15px 15px #ec731e;
+            -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+            transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+        }
+ 
 h2,h3,H4,p{
     text-align: center;
 }
