@@ -1,0 +1,504 @@
+
+body{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  font-family: sans-serif;
+  margin: 0%;
+  cursor: default;
+}
+
+ 
+                                                                                    /*general*/
+
+h1{
+    text-align: right;
+    color: gray;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+h2{
+    color: red;
+    margin-top: 4%;
+    margin-bottom: 1.5%;
+    text-align: left;
+}
+h3{
+  text-align: center;
+  font-size: 20px;
+  color: rgb(20, 255, 67);
+background-color: rgb(251, 100, 193);
+  border-radius: 20px;
+margin: 2% 30% 2% 30%;
+padding: 10px;
+}
+h4{
+  font-size: 16px;
+  margin-bottom:0% ;
+  margin-top: 0%;
+  color: white;
+  text-align: left;
+}
+h5{
+  font-weight: 900;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+h6{
+  font-weight: 900;
+  color: yellow;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5%;
+  margin-bottom: 0%;
+
+  }
+  .container{
+    font-size: 16px;
+    margin-bottom:0% ;
+    margin-top: 0%;
+    color: white;
+    text-align: left;
+  }
+
+
+  a{
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.5;
+    
+  }
+  
+  a article{
+    color: #6a6a6a;
+  }
+
+article{
+  margin-top: 0%;
+  color: blue;
+}
+
+                                                                                       /*inicio*/
+
+
+
+ #dat {
+ position: absolute;
+ background: url(teg3.webp);
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+  height: 2000px;
+ background-attachment: fixed;
+}
+
+img{
+  width: 250px; height: 250px;
+  margin: auto;
+  margin-top: 1%;
+  display: block;
+}
+
+img:hover{
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  box-shadow: 0px 0px 15px 15px #ec731e;
+  -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+
+.titulo{
+text-align:center;
+font-size:3.5em;
+color:blue;
+letter-spacing: -7px;
+font-weight:700;
+text-transform:uppercase;
+animation:blur .75s ease-out infinite;
+text-shadow:0px 0px 5px pink,
+    0px 0px 7px white;
+}
+
+@keyframes blur{
+from{
+  text-shadow:0px 0px 10px #fff,
+  0px 0px 10px #fff, 
+  0px 0px 25px #fff,
+  0px 0px 25px #fff,
+  0px 0px 25px #fff,
+  0px 0px 25px #fff,
+  0px 0px 25px #fff,
+  0px 0px 25px #fff,
+  0px 0px 50px #fff,
+  0px 0px 50px #fff,
+  0px 0px 50px yellow,
+  0px 0px 150px yellow,
+  0px 10px 100px yellow,
+  0px 10px 100px yellow,
+  0px 10px 100px yellow,
+  0px 10px 100px yellow,
+  0px -10px 100px yellow,
+  0px -10px 100px yellow;} 
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+                                                                                      
+
+.contenido{
+  width: 100%;
+  display: flex;
+}
+
+.caja{
+  width: 100%;
+  margin: 10px;
+  border-radius: 6px;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);;
+  display: table-cell;
+  padding: 10px 10px;
+  position: static;
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.caja:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5%);
+}
+
+
+.caja article{
+  padding: 2px 2px;
+}
+
+.caja img{
+  width: 100%;
+  height: 210px;
+  border-radius: 100px;
+}
+
+.caja:nth-child(1) h5{
+  background: gray;
+  padding: 5px;
+}
+.caja:nth-child(2) h5{
+  background: violet;
+  padding: 10px;
+}
+.caja:nth-child(3) h5{
+  background: green;
+  padding: 15px;
+}
+.caja:nth-child(4) h5{
+  background: red;
+  padding: 20px;
+}
+
+.caja:nth-child(1) article{
+  background: white;
+  padding: 55px;
+}
+.caja:nth-child(2) article{
+  background: white;
+  padding: 53px;
+}
+.caja:nth-child(3) article{
+  background: white;
+  padding: 51px;
+}
+.caja:nth-child(4) article{
+  background: white;
+  padding: 49px;
+}
+
+
+
+.inicio{
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+      -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+.inicio:hover {
+      background-color: #008CBA;
+      color: white;
+}
+
+
+.vmas {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rebeccapurple;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  padding: 5px;
+  width: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.vmas span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.vmas span:after {
+content: '\00bb';  
+position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.vmas:hover span {
+  padding-right: 25px;
+}
+.vmas:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.inicio1 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #15e90d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+  }
+  .inicio1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .inicio1 span:after {
+  content: '\00bb';  
+  position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .inicio1:hover span {
+    padding-right: 25px;
+  }
+  .inicio1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .inicio2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #15e90d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .inicio2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .inicio2 span:after {
+  content: '\00bb'; 
+  position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .inicio2:hover span {
+    padding-right: 25px;
+  }
+  .inicio2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+
+
+                                                                              /*HABILIDADES*/ 
+
+  #hab {
+    background: url(teg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 2900px;
+    background-attachment: fixed;
+    
+ }
+  .c-gal{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 40px;
+    background: rgba(116, 207, 230, 0.7);
+    flex-wrap: wrap;
+    max-width: 1000px;
+      margin: auto;
+  }
+
+  
+  
+  .gal__img{
+    width: 230px;
+    height: 180px;
+    margin: 5px;
+    border-radius: 40px;
+    background: rgb(190, 193, 203);
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);;
+    display: flex;
+    padding: 10px 10px;
+    position: static;
+    cursor: pointer;
+    transition: all 400ms ease;
+    object-fit: cover;
+    
+    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+  }
+  
+  .gal__img:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-5%);
+  }
+  .gal__img:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+ 
+.gal__img:hover {
+    margin-top: 2px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+  
+
+  .univ2{
+    width: 300px;
+   
+  }
+
+                                                                    /*EXPERIENCIA*/
+  #exper {
+    background:  url(teg5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1000px;
+    background-attachment: fixed;
+  
+        }
+
+  .colu{
+    display: flex;
+    flex-wrap: wrap;
+min-width: 250px;
+  }
+  .colu1{
+    flex: 1;
+  }
+  .colu1:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+  }
+  .colu1 div{
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+  }
+
+                                                                       /*ESTUDIOS*/
+  #estud {
+    background: url(fam.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1300px;
+    background-attachment: fixed;
+    
+}
+                                                                         /*PROYECTOS*/
+  #pro {
+    background: url(pro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1000px;
+    background-attachment: fixed;
+  }
+    .proyec{
+      display: block;
+      width: 60px;
+      border-radius: 10px;
+      padding: 15px 30px;
+      background-color: blue;
+      color: white;
+      text-decoration: none;
+      }
+    
+   
+
+ 
+
+  /*pruebas*/
+
+
+  
