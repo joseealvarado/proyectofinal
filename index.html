@@ -7,55 +7,81 @@
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
-        <img src="https://randomuser.me/api/portraits/women/56.jpg" alt="FOTO DE PERFIL"/>
-        <BUtton id="COLORVERDE">VERDE</BUtton>
-        <BUtton id="COLORNEGRO">NEGRO</BUtton>
-        <BUtton id="COLORROSA">ROSA</BUtton>
-        
-        <h1 class="titulo">Frances Harrison</h1>
-      <u id="datos_personales" class="container">
-          <li>DOC:90123654</li>
-          <li>3 ENERO 1990</LI>
-          <li>(677) 301-3703</li>
-          <li>frances.harrison@example.com</li>
-          <li>9118 Central St, NEW YORK</li>
-          <li>ARGENTINA</li>
-        </u>
-        <h2>HABILIDADES</h2>
-        <u>
-          <li>Comunicación</li>
-          <li>Liderazgo</li>
-          <li>capacidad de resolución de problemas</li>
-          <li>Paciencia</li>
-        </u>
-        <h2>EXPERIENCIA</h2>
-        <P id="PERIODO_LABORAL">03/FEB/2019--22/MAY/2022.        PROGRAMADOR</P>
-        <H3>ROBOT NEW</H3>
-        <U>
-          <LI>DAVID FERRERA</LI>
-          <LI>ADMINISTRADOR</LI>
-          <LI>1122334455</LI>
-        </U>
-        <P id="PERIODO_LABORAL3">02/FEB/2014--15/NOV/2018.        PROGRAMADOR</P>
-       <H3>MACHINES FUTURE</H3>
-       <U>
-           <LI>MARIO PUENTES</LI>
-           <LI>PROPIETARIO</LI>
-           <LI>1144332211</LI>
-       </U>
-       <H2>ESTUDIOS</H2>
-       <P id="AÑO_DE_ESTUDIO">5 ENERO 2010--20 NOVIEMBRE 2013</P>
-       <h4>UNIVERSIDAD NACIONAL DEL CONGO</H4><P>LICENCIATURA EN PROGRAMACION</P>
-    <br>
-    <h2>PROYECTOS DE APRENDIZAJE</h2>
-    <p> Si te interesa podes ver la Primera pagina web diseñada con los conocimientos adquiridos en ARGENTINA 4.0(En Proceso). Desarollada desde que presente el proyecto final hasta el dia de hoy.</p>
-    <br>
-   <a href="https://joseealvarado.github.io/mi-primera-pagina-web/" target="_blank">Pagina Web</a>
-    <br>
-     <br>
-    <a href="https://github.com/joseealvarado/mi-primera-pagina-web" target="_blank">Repositorio</a>
-    <br>
-    
-        <script src="curriculum.js"></script>
+        <main id="dat">
+      <br>
+     <h1>JOSE ALVARADO</h1>
+      <button type="button" class="inicio" onclick= "datos()">DATOS PERSONALES</button> 
+      <button type="button" class="inicio" onclick= "habilidades()" >HABILIDADES</button>
+      <button type="button" class="inicio" onclick= "experiencia()">EXPERIENCIA</button>
+      <button type="button" class="inicio" onclick= "estudio()">ESTUDIOS</button>
+      <button type="button" class="inicio" onclick= "proyecto()">PROYECTOS DE APRENDIZAJE</button>
+      
+      <img src="https://randomuser.me/api/portraits/women/56.jpg" alt="FOTO DE PERFIL"/>
+      <br>
+      <h1 class="titulo">Frances Harrison</h1>
+      <H2>DATOS PERSONALES</H2>
+<u id="datos_personales" class="container">
+    <li>DOC:90123654</li>
+    <li>3 ENERO 1990</LI>
+    <li>(677) 301-3703</li>
+    <li>frances.harrison@example.com</li>
+    <li>9118 Central St, NEW YORK</li>
+    <li>ARGENTINA</li>
+  </u>
+      <H3>BIENVENIDOS A ESTA GRAN EXPERIENCIA INTERACTIVA</H3>
+      <br>
+      <h4>ESTA PAGINA WEB A SIDO CREADA CON EL FIN DE QUE PUEDAS CONOCER MAS PLENAMENTE POR MEDIO DE ESTE CURRICULUM AL DESAROLLADOR DE ESTE SITIO, DE FORMA TAL QUE AL CONCLUIR ESTE RECORRIDO TU PODRAS SENTIR QUE YA ERES PARTE DE LA FAMILIA EMPRESARIAL DE DESARROLLADORES WEB.</h4>
+      <H6>COMENZAMOS</H6>
+      <br>
+      <div class="contenido">
+            <div class="caja">
+                <h5>HABILIDADES</h5>
+                <a href="habilidades.html">
+                <figure>
+                <img src="teg4.jpg">
+                </figure>
+                <article>Incluye detalles personales que dejan entrever los rasgos principales de su personalidad, talentos y algunos coceptos basicos que èl considera importante que cada persona debe tener.</article>
+            </a>
+          </div>
+                <div class="caja">
+                   <h5>EXPERIENCIAS</h5>
+                   <a href="experiencias.html">
+                   <figure>
+                   <img src="teg5.jpg">
+                   </figure>  
+                   <article>Se destacan las experiencias que repercutieron en quien es èl hoy en dia en el ambito laboral, y que merecen ser conservados en la memoria.</article>  
+                </a>
+                </div>
+             <div class="caja">
+               <h5>ESTUDIOS</h5>
+               <a href="estudios.html">
+               <figure>
+               <img src="fam.webp">
+               </figure>
+               <article>Aqui encontraras toda la informacion actualizada de los estudios, talleres y toda experiencia adquirida que ayudaran en el buen desempeño laboral en esta empresa...</article>
+            </a>
+            </div>
+                    <div class="caja">
+                      <div class="cont">
+                        <h5>PROYECTOS DE APRENDIZAJE</h5>
+                      </div>
+                      <a href="proyecto.html">
+                       <figure>
+                      <img src="pro.png">
+                      </figure>
+                      <div class="cont">
+                          <article>Informacion relevante hacerca del conjuntos de metas, planes, inversiones e investigaciones que se tienen como proyectos a corto, mediano y largo plazo. Tambien los ultimos trabajos que esta realizando personalmente</article>
+                        </div>
+                      <a>
+                    </div>
+      </div>
+      <br>
+      <br>
+<br>
+<br>
+<br>
+      <button button type="button" class="inicio2" id="abc" onclick= "habilidades()">HABILIDADES ➨</button>
+    </main>
+    <script src="proyecto.js"></script>
 </body>
 </html>
