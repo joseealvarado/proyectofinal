@@ -115,7 +115,7 @@ img:hover{
 .titulo{
 text-align:center;
 font-size:3.5em;
-color:blue;
+color:red;
 letter-spacing: -7px;
 font-weight:700;
 text-transform:uppercase;
@@ -146,7 +146,9 @@ from{
   0px -10px 100px yellow;} 
 }
 
-
+.datper{
+  color: darkorange;
+} 
 
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
