@@ -13,4 +13,4 @@ Así desde el mismo link que subí podrán ver mis actualizaciones para cumplir 
 Por ignorancia envié el link del proyecto y el del repositorio utilizando así ambas oportunidades de presentar el proyecto y posteriormente alguna mejora que me pudieran solicitar.
 Por suerte gitHub me deja modificar las hojas, por lo tanto puedo cambiar lo que yo quiera en el momento que lo desee."
 
-Muchas gracias,😁
+Muchas gracias.
